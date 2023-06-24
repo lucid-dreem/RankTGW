@@ -1,0 +1,83 @@
+h1{
+    font-family: Georgia;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#go-button-div{
+    margin-top: 120px; /*CHANGE BACK TO 120*/
+    align-self: center;
+}
+
+#go-button{
+    background-color: rgb(62, 0, 62);
+    border-color: rgb(62, 0, 62);
+    width: 100px;
+}
+
+#ranking-container{
+    display: none;
+}
+
+.btn-outline-primary{
+    border-color: rgb(62, 0, 62) !important;
+    color: rgb(62, 0, 62) !important;
+    width: 200px;
+    height: 70px;
+}
+
+.btn-outline-primary:hover{
+    background-color: rgb(62, 0, 62) !important;
+    color: white !important;
+}
+
+#option1{
+    margin-bottom: 35px;
+}
+
+#results-container{
+    position: relative;
+    display: none;
+}
+
+#maisie-img{
+    height: 640px;
+    width: 360px;
+    object-fit: cover;
+    opacity: 17.5%;
+}
+
+#results-heading{
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 28px;
+    color: white;
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow:
+		-1px -1px 0 rgb(62, 0, 62),
+		1px -1px 0 rgb(62, 0, 62),
+		-1px 1px 0 rgb(62, 0, 62),
+		1px 1px 0 rgb(62, 0, 62);
+    white-space: nowrap;
+}
+
+#results-list{
+    text-align: left;
+    font-weight: 600;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 85px;
+    transform: translateX(-50%);
+    font-family: 'Rajdhani';
+    letter-spacing: 2px;
+    color: rgb(62, 0, 62);
+}
+
+#results-list li{
+    padding-bottom: 10px;
+}
